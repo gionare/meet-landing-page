@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;1,600&family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@300;500;700;900&display=swap");
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 375px;
+  height: 2215px;
+  background-color: pink;
+  box-shadow: 5px 5px 5px 5px rgba(82, 82, 82, 0.499);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 48px;
+}
+
+.header-img {
+  width: 420px;
+  margin-top: 40px;
+}
+
+/* ************************** */
+/* ******* MID CONTENT ****** */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h1 {
+  color: #28283d;
+  text-align: center;
+  font-family: Red Hat Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 44px; /* 110% */
+}
+
+.content p {
+  color: #87879d;
+  text-align: center;
+  font-family: Red Hat Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+
+.download {
+  width: 193px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 29px;
+  background: #4d96a9;
+}
+.download-text {
+  color: #fff;
+  font-family: Red Hat Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 26px; /* 162.5% */
+}
+.version-text {
+  color: #8fe3f9;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.whatIsIt-btn {
+  color: #fff;
+  font-weight: 900;
+  margin-top: 16px;
+  width: 139px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 29px;
+  background: #855fb1;
+}
+
+/* ********************** */
+/* ******* LOWER ******** */
+
+.lower-content-heading {
+  color: #4d96a9;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.lower-content {
+  color: #28283d;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+}
+.lower-content-p {
+  color: #87879d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ftr-heading {
+  color: #fafafa;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px; /* 112.5% */
+}
+.ftr-p {
+  color: #fafafa;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+}
+.footer-btn {
+  margin-top: 32px;
+  width: 193px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 29px;
+  background: #855fb1;
+}
