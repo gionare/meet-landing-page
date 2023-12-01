@@ -1,6 +1,6 @@
 # Frontend Mentor - Meet landing page
 
-![Screenshot](assets/Screenshot.png)
+<img src="assets/Screenshot.png" alt="Screenshot" width="300">
 
 ## Welcome! 👋
 
